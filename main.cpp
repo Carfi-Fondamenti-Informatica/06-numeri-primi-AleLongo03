@@ -1,22 +1,39 @@
-
 #include <iostream>
+ 
 #include "lib.h"
-
+ 
+ 
+ 
+ 
 using namespace std;
-
+ 
+ 
+ 
+ 
 int main(){
-    int n;
-    int i;
-    bool ris;
-    cin>>n;
-    i=n-1;
-    ris=num_prim(n,i);
-    if (ris==1)
-    {
-        cout<<"numero primo";
-    }
-    else{
-        cout<<"numero non primo";
-        }
-    return 0;
+ 
+  int n = 0, i=2;
+ 
+       cin>>n;
+ 
+if (primo(n,i)==true)
+ 
+{
+ 
+   cout<<"numero primo"<<endl;
+ 
+}
+ 
+if (primo(n,i)==false)
+ 
+{
+ 
+   cout<<"numero non primo"<<endl;
+ 
+}
+ 
+ 
+ 
+ return 0;
+ 
 }
