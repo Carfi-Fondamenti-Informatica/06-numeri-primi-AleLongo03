@@ -3,6 +3,6 @@
 
 #endif //ESERCIZIO_6_LIB_H
 
-bool funzione(int a, int b);
+bool num_prim(int n, int i);
 
 
